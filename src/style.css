@@ -1,0 +1,140 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+  padding: calc(1rem + 2.5%) calc(1rem + 25%);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 90, 95);
+}
+
+h3 {
+  color: rgb(255, 90, 95);
+}
+
+input[type=text] {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.5rem;
+  height: 9%; 
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  border-image: initial;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+input:focus {
+  border-color: #007a87;
+  outline: none;
+}
+
+textarea {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.5rem;
+  height: 13%; 
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  border-image: initial;
+  border-color: lightgray;
+  border-width: 2px;
+}
+
+textarea:focus {
+  border-color: #007a87;
+  outline: none;
+}
+
+.newpost {
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 8px;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(223, 251, 253);
+}
+
+.thread {
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 8px;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 1rem;
+}
+
+.name {
+  color: #007a87;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+  padding: 0;
+}
+
+.post {
+  padding: 0;
+  margin: 0 0 1.45rem;
+}
+
+.arrow {
+  font-size: 10;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #007a87;
+  cursor: pointer;
+  margin-bottom: 5;
+}
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #007a87;
+  cursor: pointer;
+  margin-top: 5;
+}
+
+.counter {
+  margin: 0;
+}
+
+.voter {
+  float: right;
+  margin-left: 10;
+  margin-right: 5;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  padding: 1%;
+  border-image: initial;
+  border-radius: 3px;
+  background: rgb(255, 90, 95);
+  border-color: rgb(255, 90, 95);
+  border-style: solid;
+  color: rgb(255, 255, 255);
+}
+
+.reply {
+  font-family: 'Inter', sans-serif;
+  padding: 1%;
+  border-image: initial;
+  border-radius: 3px;
+  background: #007a87;
+  border-color: #007a87;
+  border-style: solid;
+  color: rgb(255, 255, 255);
+}
